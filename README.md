@@ -1,5 +1,6 @@
 Basic Pizzeria Web App
 
+- not completed
 
 
 
