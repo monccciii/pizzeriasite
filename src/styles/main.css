@@ -1,0 +1,151 @@
+
+.inputbox {
+    border-radius: 25px;
+    background: black;
+    right: -22.5%;
+    position: relative;
+    padding: 20px;
+    width: 600px;
+    color: white;
+}
+
+.inputboxsm {
+    margin-top: 1vh;
+    border-radius: 25px;
+    background: black;
+    right: 10;
+    position: absolute;
+    padding: 5px;
+    width: 100px;
+    height: auto;
+    color: white;
+}
+
+.inputboxabsolute {
+    border-radius: 25px;
+    background: black;
+    position: absolute;
+    right: 33%;
+    padding: 5px;
+    width: 400px;
+    color: white;
+}
+.bigtext {
+    font-size: 100px;
+}
+
+.smallimg {
+    width: 50%;
+    height: auto;
+}
+
+.centered-elem {
+    margin-top: 35vh;
+}
+
+
+.centered {
+    text-align: center
+}
+
+.medtext {
+    
+    font-size: 20px;
+    color: black;
+}
+
+.navcontainer {
+    width: 100vw;
+    height: 14vh;
+    margin-bottom: 0px;
+    position:fixed;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+
+.footerp {
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    
+}
+
+.left1 {
+    float: left;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 75vh;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.right1 {
+    float: right;
+    position: absolute;
+    margin-left: 125vh;
+    margin-top: 5vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.bigimage1 {
+    height: 100vh;
+    width: 99vw;
+    background-color: oldlace;
+    background-image: url('../images/pizza1.jpg');
+    background-repeat: no-repeat;
+}
+.bigimage2 {
+    height: 100vh;
+    width: 99vw;
+    background-color: oldlace;
+    background-image: url('../images/pizza3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.bigwhitespace {
+    height: 50vh;
+    width: 99vw;
+    background-color: white;
+}
+
+.bigoffwhitespace {
+    height: 50vh;
+    width: 99vw;
+    background-color: oldlace;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.bigimage3 {
+    height: 100vh;
+    width: 99vw;
+    background-color: oldlace;
+    background-image: url('../images/pizzarestaurant.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.breakimg {
+    text-align: center;
+    z-index: 3;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.twittericon{
+    background: url('../images/twitterico.png');
+    height: 20px;
+    width: 20px;
+}
+.instaicon{
+    background: url('../images/instaico.png');
+    height: 20px;
+    width: 20px;
+ 
+}
