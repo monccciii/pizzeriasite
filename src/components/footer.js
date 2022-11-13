@@ -9,11 +9,10 @@ const Footer = () => {
         <div>
         <div className='bigoffwhitespace'>
                 <h1><br></br>C O N T A C T &nbsp; U S</h1>
-                <span className='twittericon'></span>
-                <span className='instaicon'></span>
+                
             </div>
         <div className='footerp'>
-            <p>Footer</p>
+            <p>Joe's Pizzeria, 2022©</p>
         </div>
         </div>
     )

@@ -35,7 +35,7 @@
 }
 
 .smallimg {
-    width: 50%;
+    width: 10%;
     height: auto;
 }
 
@@ -79,7 +79,7 @@
     float: left;
     position: absolute;
     margin-top: 5vh;
-    margin-left: 55vh;
+    margin-left: 65vh;
     font-family: 'Raleway', sans-serif;
 
 }
@@ -93,22 +93,22 @@
 }
 
 
-.bigimage1 {
+#bigimage1 {
     height: 100vh;
     width: 99vw;
     background-color: black;
     background-image: url('../images/pizza1.jpg');
     background-repeat: no-repeat;
-    filter: brightness(40%);
+    filter: saturate(50%);
 }
-.bigimage2 {
+#bigimage2 {
     height: 100vh;
     width: 99vw;
     background-color: black;
     background-image: url('../images/pizza3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(40%);
+    filter: saturate(50%);
     
 }
 
@@ -125,21 +125,22 @@
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
-.bigimage3 {
+#bigimage3 {
     height: 100vh;
     width: 99vw;
     background-color: black;
     background-image: url('../images/pizzarestaurant.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(40%);
+    filter: saturate(100%);
     
 }
 .breakimg {
     text-align: center;
     z-index: 3;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 .twittericon{
@@ -163,4 +164,68 @@
     background-size:cover;
     height: 100vh;
     width: 99vw;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .backgroundimages {
+    width:  100%;
+    height: 1000px;
+}
+
+.smalltxt {
+    font-size: medium;
+}
+
+.hoverable:hover{
+    width: 16%;
+    height: auto;
+    z-index: 2
+}
+
+.modal-content {
+    background-color: white;
+    margin: 300px auto;
+    height: 40%;
+    width: 40%;
+    text-align: center;
+    z-index: 10;
+}
+
+.menuopts {
+    display:flex;
 }
