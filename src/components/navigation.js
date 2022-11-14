@@ -6,24 +6,19 @@ import { Button, Navbar, Container} from 'react-bootstrap';
 import Logo from '../images/logo.png';
 const Navigation = () => {
 
-    const Title = () => {
-        const [title, setTitle] = useState("");
-     
-        return <p onClick={() => setTitle("New title")}>{title}</p>;
-     }
-
     return (
         /*make sure to revamp everything here using flexboxes*/
-        <div className="medtext navcontainer">
-            <div className="left1 underlineanim">
-                <p id='clickable'>A B O U T &nbsp; U S</p>
+        <nav className="navcontainer">
+            <div className='navbar_logo'>
+                <img src={Logo} alt="logo" className='navbarlogo'></img>
             </div>
-            <div className="right1 underlineanim">
-                <p id='clickable2'>M E N U</p>
-            </div>
-            <img className='images' src={Logo} alt="Joe's Pizzeria"></img>
-            
-        </div>
+            <p className='logotext' style={{marginTop: '1vh', fontFamily:"'Bebas Neue', cursive"}}><b>Joe's Pizzeria NY</b></p>
+            <ul className="navbarlinks">
+                <li className="nblink">About Us</li>
+                <li className="nblink">Menu</li>
+                <li className="nblink">Contact Us</li>
+            </ul>
+        </nav>
     )
 }
 

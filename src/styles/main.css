@@ -37,6 +37,8 @@
 .smallimg {
     width: 10%;
     height: auto;
+    animation-name: zoomout; 
+    animation-duration: 1s;
 }
 
 .centered-elem {
@@ -48,22 +50,49 @@
     text-align: center
 }
 
-.medtext {
-    
-    font-size: 20px;
-    color: black;
-}
 
 .navcontainer {
-    z-index:5;
-    width: 100vw;
-    height: 14vh;
-    margin-bottom: 0px;
-    position:fixed;
-    background-color: antiquewhite;
-    text-align: center;
+    z-index: 5;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: oldlace;
+	position: sticky;
+    top: 0;
 }
 
+.navbarlinks {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.navbarlinks li {
+    margin: 0 10rem;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+
+}
+.logotext {
+    font-size:40px;
+    font-family: 'Raleway', sans-serif;
+    color:green
+}
+.navbarlinks li:hover {
+    color: var(--color-grey);
+    text-decoration: underline;
+}
+
+.navbarlogo {
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    width:150px
+}
 
 .footerp {
     width: 100vw;
@@ -211,10 +240,37 @@
     font-size: medium;
 }
 
-.hoverable:hover{
-    width: 16%;
-    height: auto;
-    z-index: 2
+.hoverable1:hover{
+    position: absolute;
+    animation-name: zoom; 
+    animation-duration: 1s;
+    z-index: 2;
+    width: 15%;
+}
+
+.hoverable1:hover .menus
+
+.hoverable2:hover{
+    position: absolute;
+    animation-name: zoom; 
+    animation-duration: 1s;
+    z-index: 2;
+}
+
+.hoverable3:hover{
+    position: absolute;
+    animation-name: zoom; 
+    animation-duration: 1s;
+    z-index: 2;
+}
+
+@keyframes zoom {
+    from {width: 10%}
+    to {width: 15%}
+}
+@keyframes zoomout {
+    from{width: 15%}
+    to{width:10%}
 }
 
 .modal-content {

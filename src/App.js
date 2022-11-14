@@ -5,12 +5,11 @@ import { Button, Navbar } from 'react-bootstrap/Button';
 import Navigation from './components/navigation'
 import Home from './components/home';
 import Footer from './components/footer'
+import LocationCard from './components/locationcard';
 function App() {
   return (
     <div className="App">
-      <Navigation/>
-      <Home/>
-      <Footer/>
+      <LocationCard Pickimage={1}/>
     </div>
   );
 }

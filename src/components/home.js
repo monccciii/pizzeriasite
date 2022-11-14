@@ -21,7 +21,7 @@ const Home = () => {
                 <br></br>
                 <br></br>
                 <br></br>
-            <h1 className='breakimg'>World Class Pizza</h1>
+            <h1 className='breakimg' style={{fontSize:'70px', fontFamily:"'Bebas Neue', cursive"}}>World Class Pizza</h1>
                 <br></br>
                 <br></br>
                 <br></br>
@@ -42,7 +42,7 @@ const Home = () => {
                 <br></br>
                 <br></br>
                 <br></br>
-            <h1 className='breakimg'>Joe's Pizzeria is NY's <b>#1</b> Rated Pizzeria </h1>
+            <h1 className='breakimg'>Joe's Pizzeria is NY's <b style={{fontSize:'70px'}}>#1</b> Rated Pizzeria </h1>
             </div>
             <div id='bigimage2'>
                 <br></br>
@@ -60,13 +60,13 @@ const Home = () => {
                 <br></br>
                 <br></br>
                 <div className='menuopts'>
-                <p className='breakimg' style={{marginLeft:'27vw'}}>Dine in Menu</p>
-                <p className='breakimg' style={{marginLeft:'15vw'}}>Lunch Menu</p>
-                <p className='breakimg' style={{marginLeft:'15vw'}}>Cocktail Menu</p>
+                <p className='breakimg menus' style={{marginLeft:'27vw'}}>Dine in Menu</p>
+                <p className='breakimg menus' style={{marginLeft:'15vw'}}>Lunch Menu</p>
+                <p className='breakimg menus' style={{marginLeft:'15vw'}}>Cocktail Menu</p>
                 </div>
-                <img src={pizzamen2} className='smallimg hoverable' style={{marginLeft: '25vw', marginRight: '10vw'}}></img>
-                <img src={pizzamen1} className='smallimg hoverable' style={{marginRight: '10vw'}}></img>
-                <img src={pizzamen3} className='smallimg hoverable' style={{marginRight: '10w'}}></img>
+                <img src={pizzamen2} className='smallimg hoverable1' style={{marginLeft: '25vw', marginRight: '10vw'}}></img>
+                <img src={pizzamen1} className='smallimg hoverable2' style={{marginRight: '10vw'}}></img>
+                <img src={pizzamen3} className='smallimg hoverable3' style={{marginRight: '10w'}}></img>
             </div>
             <div className='bigwhitespace'>
                 <h1 className='breakimg' style={{color:'black'}}>Why Eat at Joe's?</h1>
